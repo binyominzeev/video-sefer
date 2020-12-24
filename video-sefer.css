@@ -1,0 +1,25 @@
+#container {
+float: right;
+}
+#title {
+font-size: 29px;
+font-weight: bold;
+font-family: "Liberation Serif";
+text-align: center;
+padding-bottom: 20px;
+padding-top: 20px;
+width: 922px;
+float: right;
+/*border: black 1px solid;*/
+}
+#iframe-spacing {
+font-size: 20px;
+}
+#chumas {
+padding: 10px;
+margin-bottom: 20px;
+clear: right;
+}
+#rasi {
+padding: 10px;
+}

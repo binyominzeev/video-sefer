@@ -1,0 +1,7 @@
+span {
+line-height: 50px;
+}
+::selection {
+  color: red;
+  background: yellow;
+}
