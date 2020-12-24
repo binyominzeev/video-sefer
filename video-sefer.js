@@ -24,5 +24,9 @@ window.onload = function() {
 	link2.type = "text/css"; 
 	frames['rasi'].document.head.appendChild(link2);
 
+/*	var iframeDoc = $("#chumas")[0].contentWindow.document;
+	var $jqObject = $(iframeDoc).find("body");
+	var iframeHtml = $jqObject.html();
+	$jqObject.html(iframeHtml.replace(">-<", ">־<"));*/
 }
 
