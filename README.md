@@ -1,6 +1,6 @@
 # video-sefer
 
-A HTML setup for creating Hebrew text learning videos
+A HTML setup for creating Hebrew text learning videos. See demo at <https://video-sefer.surge.sh/>.
 
 ## Usage
 
