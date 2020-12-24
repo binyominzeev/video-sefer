@@ -15,3 +15,6 @@ I am using it currently for a Chumash-Rashi shiur, so I need two sources, one at
 - Record the screen (I use SimpleScreenRecorder for that)
 
 **Hint:** if you use a phone or tablet for the recording, even just for the audio, you can achieve better sound quality. Even in this case it is good to record the sound input to the computer with SimpleScreenRecorder, so that it will be easier to align the recorded video with the audio.
+
+**Important:** the CSS settings won't work correctly (because of the default security settings) if you open the HTML (`video-sefer.html`) locally. Therefore, use a localhost / Apache instead.
+
