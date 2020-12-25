@@ -13,7 +13,7 @@ $(document).ready(function () {
 
 window.onload = function() {
 	let link = document.createElement("link");
-	link.href = "chumas.css";
+	link.href = "chumas.css?1";
 	link.rel = "stylesheet"; 
 	link.type = "text/css";
 	frames['chumas'].document.head.appendChild(link);
