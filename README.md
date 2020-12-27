@@ -2,12 +2,15 @@
 
 A HTML setup for creating Hebrew text learning videos. See demo at <https://video-sefer.surge.sh/>.
 
+![Video Sefer in action](https://raw.githubusercontent.com/binyominzeev/video-sefer/main/Screenshot_2020-12-27_21-41-31.png)
+
 ## Usage
 
 I am using it currently for a Chumash-Rashi shiur, so I need two sources, one at the right, one at the bottom of the screen.
 
 - Put your text into the source files with LibreOffice Writer.
 - I use [Torat Emet](http://www.toratemetfreeware.com/online/a_root.html) for the Chumash text, [Alhatorah](https://mg.alhatorah.org/) for Rashi
+  - **OPTIONAL (but useful):** use the two `.user.js` scripts in the directory with Tampermonkey. This will replace dashes to maqafs in Torat Emet and remove the footnotes from Alhatorah.
 - I use SBL Hebrew font for displaying both (32 and 15 points, respectively). If you change font size, you might want to fine tune line heights in `chumas.css` and `rasi.css`.
 - Enter title to display in `video_sefer.html`.
 - Show it in browser window (I use Chrome).
@@ -19,15 +22,13 @@ I am using it currently for a Chumash-Rashi shiur, so I need two sources, one at
 
 **Important:** the CSS settings won't work correctly (because of the default security settings) if you open the HTML (`video-sefer.html`) locally. Therefore, use a localhost / Apache instead.
 
-## TODO
+# TODO
 
-### Maqaf
+## Maqaf script
 
-Maqaf in the Chumash text is: ־ (instead of normal hyphen: -).
+Unfortunately currently breaking the formatting, losing the bold of the pasukim. Has to be corrected.
 
-It is challenging to search-and-replace in Javascript, since in original Torat Emet version there are hyphens. As long as the search-and-replace happens in LibreOffice Writer, everything works fine.
 
-A Javascript attempt was made (can be seen commented in `video-sefer.js`), but did not work out, since LibreOffice adds a lot of formatting tags during HTML conversion, which are non-trivial to remove.
 
 
 
